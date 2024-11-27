@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "dio-projeto-antifraude"
+version = "0.1.0"
+description = ""
+authors = ["Raul Gomes <rsgomes86@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.40.2"
+python-dotenv = "^1.0.1"
+azure-ai-documentintelligence = "^1.0.0b4"
+azure-storage-blob = "^12.24.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
